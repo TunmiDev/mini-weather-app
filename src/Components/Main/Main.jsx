@@ -1,4 +1,5 @@
 import React from "react";
+import "./Main.css";
 
 const Main = () => {
   return (
@@ -11,7 +12,7 @@ const Main = () => {
             <span className="time"></span>
             <span className="description"></span>
             <br />
-            humidity: <strong className="humidity"></strong>, Wind:{" "}
+            humidity: <strong className="humidity"></strong>, Wind:
             <strong className="speed"></strong>
           </p>
         </div>
@@ -23,7 +24,12 @@ const Main = () => {
           <div className="weather-app-unit">℃</div>
         </div>
       </div>
-      <div className="weather-forecast"></div>
+      <div className="weather-forecast">
+        <div className="weather-forecast-date"></div>
+        <div className="weather-forecast-icon"> </div>
+        <div className="weather-forecast-temperatures"></div>
+        <div className="weather-forecast-temperature"></div>
+      </div>
     </main>
   );
 };

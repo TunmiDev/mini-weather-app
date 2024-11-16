@@ -11,7 +11,7 @@ const SearchBar = () => {
           required
           className="search-form-input"
         />
-        <input type="submit" value="search" className="search-from-button" />
+        <input type="submit" value="Search" className="search-from-button" />
       </form>
     </section>
   );
